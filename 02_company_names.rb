@@ -150,3 +150,5 @@ crm = {
 #   Steuber, Wisozk and Gorczany (9)
 #
 # ------- your code under here -----------
+
+crm[:companies].map{|id, company| puts "#{company} (#{id})"}
